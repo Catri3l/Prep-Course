@@ -15,6 +15,7 @@ function invocarCallback(cb) {
   
 }
 
+
 function operacionMatematica(n1, n2, cb) {
   //Vamos a recibir una función que realiza una operación matemática como callback junto con dos números.
   //Devolver el callback pasándole como argumentos los números recibidos.
@@ -25,6 +26,7 @@ function operacionMatematica(n1, n2, cb) {
   
 
 }
+
 
 function sumarArray(numeros, cb) {
   // Suma todos los números enteros (int/integers) de un array ("numeros")
@@ -38,6 +40,7 @@ function sumarArray(numeros, cb) {
 
 }
 
+
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
@@ -46,6 +49,7 @@ function forEach(array, cb) {
     cb(array[i])
   }
 }
+
 
 function map(array, cb) {
   // Crea un nuevo array
@@ -57,6 +61,7 @@ function map(array, cb) {
   });
   return nuevoArray;
 }
+
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
