@@ -1,6 +1,6 @@
 // No cambies los nombres de las funciones.
 
-function crearGato (nombre, edad) {
+ function crearGato (nombre, edad) {
   // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
   // Agrega una propiedad al objeto con el nombre "edad" y usa el valor definido en el argumento "edad"
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
@@ -19,7 +19,7 @@ function crearGato (nombre, edad) {
   
 
 //agregarpropiedad
-function agregarPropiedad (objeto, property) {
+ function agregarPropiedad (objeto, property) {
   // Agrega una propiedad al objeto (argumento "objeto") con el valor `null`
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
@@ -30,7 +30,7 @@ function agregarPropiedad (objeto, property) {
    return objeto;
 }
 
-function invocarMetodo (objeto, metodo) {
+ function invocarMetodo (objeto, metodo) {
   // "metodo" es una cadena que contiene el nombre de un método (funcion) en el objeto
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
@@ -38,7 +38,7 @@ function invocarMetodo (objeto, metodo) {
   objeto[metodo]();
 }
 
-function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
+ function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
@@ -47,7 +47,7 @@ function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
 
 }
 
-function eliminarPropiedad (objeto, unaPropiedad) {
+ function eliminarPropiedad (objeto, unaPropiedad) {
   // Elimina la propiedad de objeto cuyo nombre está pasado por el parametro unaPropiedad
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
