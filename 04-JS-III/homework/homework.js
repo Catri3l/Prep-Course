@@ -109,6 +109,7 @@ function promedioResultadosTest(resultadosTest) {
 }
 
 
+
 function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
@@ -124,7 +125,8 @@ function numeroMasGrande(numeros) {
 
 
 
-function multiplicarArgumentos() {
+
+  function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto 
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
@@ -139,6 +141,7 @@ function multiplicarArgumentos() {
 }
 
 
+
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
@@ -151,6 +154,7 @@ function cuentoElementos(arreglo){
 return contador;
 
 }
+
 
 
 function diaDeLaSemana(numeroDeDia) {
@@ -168,6 +172,7 @@ function diaDeLaSemana(numeroDeDia) {
 } 
 
 
+
 function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
@@ -183,6 +188,7 @@ let num = n.toString();
 }
 
 
+
 function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
@@ -195,6 +201,7 @@ function todosIguales(arreglo) {
   }
   
 } 
+
 
 
 function mesesDelAño(array) {
@@ -254,6 +261,7 @@ function breakStatement(numero) {
     return array;
   }
 }
+
 
 
 function continueStatement(numero) {
